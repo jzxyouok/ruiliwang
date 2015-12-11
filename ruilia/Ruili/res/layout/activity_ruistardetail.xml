@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.project.ruili"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f00" >
+
+        <ImageView
+            android:id="@+id/iv_ruistar_back"
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/item_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="参赛专辑"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/prfv_stardetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.pubu.gridview.StaggeredGridView
+            android:id="@+id/gv_stardetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:column_count="2"
+            app:item_margin="10dp" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

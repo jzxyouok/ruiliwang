@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f00" >
+		<ImageView 
+		   android:onClick="getBack"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:layout_width="40dp"
+            android:layout_height="40dp"
+             android:background="@drawable/item_btn_back"
+		    />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="版权说明"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+   
+    </RelativeLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" 
+        android:background="#ffffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="版权说明"
+            android:textSize="25.0sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="1dp"
+            android:text="\t\t瑞丽网应用由瑞丽数字媒体提供，瑞丽网之应用数据和所有内容（包括不限于文本，照片，数据，软件和图形）均受知识产权法保护。" />
+    </LinearLayout>
+
+</LinearLayout>

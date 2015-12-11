@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/asdasdasd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff0000" >
+
+        <ImageView
+            android:id="@+id/fash_details_coleect_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/fash_details_collect_back_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/item_btn_back" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/activity_person_message_show_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

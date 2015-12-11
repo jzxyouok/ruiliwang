@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/set_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是设置界面" />
+
+    <Button
+        android:text="删除数据"
+        android:id="@+id/set_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

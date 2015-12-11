@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:id="@+id/layout_ruistar_head"
+     android:visibility="gone"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_ruistar_headiv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+       />
+
+    <TextView
+        android:id="@+id/tv_ruistar_headtv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+         />
+
+    <TextView
+        android:id="@+id/tv_ruistar_headtv2"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="参赛要求:"
+        android:paddingBottom="15dp"
+      />
+    <TextView
+        android:id="@+id/tv_ruistar_headtv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tv_ruistar_headtv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tv_ruistar_headtv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tv_ruistar_headtv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+     />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rb_header3_choice"
+        android:gravity="center"
+        android:text="我要报名"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

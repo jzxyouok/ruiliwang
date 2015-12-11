@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="上期颁奖台"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/iv_ruistar_head2_l1"
+            style="@style/ruistarHd2Layout"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_ruistar_head2_fir"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruistar_head2_layoutbg_selector"
+                android:paddingLeft="10dp"
+                android:paddingRight="6dp"
+                android:paddingTop="5dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_ruistar_head2tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_ruistar_head2_l2"
+            style="@style/ruistarHd2Layout"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_ruistar_head2_sec"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruistar_head2_layoutbg_selector"
+                android:clickable="false"
+                android:paddingLeft="6dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_ruistar_head2tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/iv_ruistar_head2_l3"
+            style="@style/ruistarHd2Layout"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_ruistar_head2_thi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruistar_head2_layoutbg_selector"
+                android:clickable="false"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_ruistar_head2tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_ruistar_head2_l4"
+            style="@style/ruistarHd2Layout"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_ruistar_head2_fou"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruistar_head2_layoutbg_selector"
+                android:clickable="false"
+                android:paddingBottom="5dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="10dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_ruistar_head2tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

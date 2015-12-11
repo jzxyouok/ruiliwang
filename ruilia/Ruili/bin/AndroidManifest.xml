@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.ruili"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activitys.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.HomeActivity" >
+        </activity>
+        <activity android:name=".activitys.WellComeActivity" >
+        </activity>
+        <activity android:name=".activitys.RuiStarDetailActivity" >
+        </activity>
+        <activity android:name=".activitys.PhotoShowActivity" >
+        </activity>
+        <activity android:name=".activitys.CollectActivity" >
+        </activity>
+        <activity android:name=".activitys.PersonSettingActivity" >
+        </activity>
+        <activity android:name=".activitys.CopyRightActivity" >
+        </activity>
+        <activity android:name=".activitys.SuggestinActivity" >
+        </activity>
+        <activity android:name=".activitys.FashDetailsActivity" >
+        </activity>
+        <activity android:name=".activitys.SubjectItemActivity" >
+        </activity>
+        <activity android:name=".activitys.SbjItem_ItemActivity" >
+        </activity>
+        <activity android:name=".activitys.PushActivity" >
+        </activity>
+        <activity android:name=".activitys.PrettyPicturesShowActivity" />
+        <activity android:name=".activitys.PersonCenterActivity" />
+    </application>
+
+</manifest>

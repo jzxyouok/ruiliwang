@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frag_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/foot_tab_bg" >
+
+        <LinearLayout
+            android:id="@+id/layouy_home_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/news_normal" />
+
+            <TextView
+                style="@style/homeBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="潮流" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layouy_home_star"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ruistar_normal" />
+
+            <TextView
+                style="@style/homeBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="瑞星" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layouy_home_pic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/picture_normal" />
+
+            <TextView
+                style="@style/homeBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="美图" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layouy_home_sub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/sbject_normal" />
+
+            <TextView
+                style="@style/homeBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="专题" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
